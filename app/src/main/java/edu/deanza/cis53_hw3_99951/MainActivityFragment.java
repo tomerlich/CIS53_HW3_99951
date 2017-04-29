@@ -24,9 +24,13 @@ public class MainActivityFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
         String[] data = {
-                "dummy data1",
-                "dummy data2",
-                "dummy data3"
+                "Monday 6/23 - Sunny",
+                "Tuesday 6/24 - Foggy",
+                "Wednesday 6/25 - Cloudy",
+                "Thursday 6/26 - Rainy",
+                "Friday 6/27 - Foggy",
+                "Saturday 6/28 - TRAPPED IN WEATHER STATION",
+                "Sunday 6/29 - Sunny"
         };
         List<String> weekForecast = new ArrayList<String>(Arrays.asList(data));
 
