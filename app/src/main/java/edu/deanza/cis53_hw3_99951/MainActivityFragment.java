@@ -2,6 +2,7 @@ package edu.deanza.cis53_hw3_99951;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +12,8 @@ import android.widget.ListView;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import static edu.deanza.cis53_hw3_99951.MainActivity.APP_TAG;
 
 /**
  * A placeholder fragment containing a simple view.
@@ -23,6 +26,7 @@ public class MainActivityFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
+        Log.d(APP_TAG, "onCreateView");
         String[] data = {
                 "Monday 6/23 - Sunny",
                 "Tuesday 6/24 - Foggy",
